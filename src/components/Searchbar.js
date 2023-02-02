@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-
 import { Button } from "reactstrap";
-import searchPokemon from "./api";
 
 const Searchbar = (props) => {
   const [search, setSearch] = useState("dito");
