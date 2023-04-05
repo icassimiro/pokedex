@@ -165,3 +165,32 @@
 .App {
   text-align: center;
 }
+
+@media screen and (max-width: 905px) {
+  * {
+    margin: 1px;
+  }
+
+  .pokeapi-logo {
+    width: 20%;
+  }
+
+  .favorite-pokemons {
+    width: 100%;
+    font-size: 17px;
+  }
+
+  .searchbar-container {
+    border: none;
+  }
+
+  .pokedex-grid {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pokemon-card {
+    width: 100%;
+  }
+}
