@@ -194,3 +194,12 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .pagination-container {
+    margin-left: 1.5rem;
+  }
+  .end-btn {
+    font-size: 13px;
+  }
+}
